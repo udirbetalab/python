@@ -6,6 +6,7 @@ Du må lage koder til bruk med twitter som legges inn i auth_xxxx.py filen. Kode
 
 Du må installere TwitterAPI på din maskin. (I terminal på MAC: sudo pip install TwitterAPI) se også https://github.com/geduldig/TwitterAPI
 
+# hente ut tweets fra ett bestemt område, eksempel fra Oslo
 
 <pre>
 r = api.request('statuses/filter', {'locations':'-74,40,-73,41'}) #NYC 
