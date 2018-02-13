@@ -9,7 +9,7 @@ Du må installere TwitterAPI på din maskin. (I terminal på MAC: sudo pip insta
 # hente ut tweets fra ett bestemt område, eksempel fra Oslo
 
 <pre>
-r = api.request('statuses/filter', {'locations':'-74,40,-73,41'}) #NYC 
+r = api.request('statuses/filter', {'locations':'<b>-74,40,-73,41</b>'}) #NYC 
 for item in r:
         print(item)
 </pre>
@@ -22,5 +22,5 @@ http://boundingbox.klokantech.com/
 Velg CSV format når du har definert din område firkant. Lim inn tallene som vist under i din kode.
 
 <pre>
-Oslo: api.request('statuses/filter', {'locations':'<b>10.577063,59.831563,10.90116,59.994724</b>'})
+api.request('statuses/filter', {'locations':'<b>10.577063,59.831563,10.90116,59.994724</b>'})
 </pre>
