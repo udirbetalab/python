@@ -15,7 +15,7 @@ for item in r:
 
 Hvordan definere Oslo?
 
-<img src="https://github.com/larsgimse/python/blob/master/twitter/BBox_oslo.png" width=400>
+<img src="https://github.com/udirbetalab/python/blob/master/BBox_oslo.png" width=400>
 http://boundingbox.klokantech.com/
 
 <pre>
