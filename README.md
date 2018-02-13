@@ -19,7 +19,7 @@ Hvordan definere Oslo?
 <img src="https://github.com/udirbetalab/python/blob/master/BBox_oslo.png" width=400>
 http://boundingbox.klokantech.com/
 
-Velg CSV format når du har derfinert din firkant. Lim inn tallene som vist under i din kode.
+Velg CSV format når du har definert din område firkant. Lim inn tallene som vist under i din kode.
 
 <pre>
 Oslo: api.request('statuses/filter', {'locations':'<b>10.577063,59.831563,10.90116,59.994724</b>'})
